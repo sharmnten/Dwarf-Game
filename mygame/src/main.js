@@ -36,7 +36,7 @@ onKeyRelease("right",()=>{
     dworf.play("idle",{loop:true});
 })
 
-
+//controls for left
 onKeyPress("left",()=>{
     dworf.play("run",{loop:true});
     dworf.flipX = true;
